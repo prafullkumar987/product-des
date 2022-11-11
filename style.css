@@ -96,7 +96,7 @@ a:hover {
 .right-column {
   width: 35%;
   position: absolute;
-  right: 0;
+  right: 15px;
   margin-top: 60px;
 }
 .but{
@@ -304,4 +304,20 @@ a:hover {
     width: 220px;
     top: -85px;
   }
+}
+
+.zoomin {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.zoomin img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.zoomin:hover img {
+  transform: scale(1.5);
 }
